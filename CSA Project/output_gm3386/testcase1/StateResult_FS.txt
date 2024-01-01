@@ -1,0 +1,902 @@
+----------------------------------------------------------------------
+State after executing cycle: 0
+IF_IDPC: 0
+IF_IDrawInstruction: 00000000000000000000000010000011
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 0
+EX_MEMinstruction: 0
+EX_MEMALUresult: 0
+EX_MEMrt: 0
+MEM_WBPC: 0
+MEM_WBinstruction: 0
+MEM_WBWrt_data: 0
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 1
+IF_IDPC: 4
+IF_IDrawInstruction: 00000000010000000000000100000011
+ID_EXPC: 0
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 0, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 0
+EX_MEMPC: 0
+EX_MEMinstruction: 0
+EX_MEMALUresult: 0
+EX_MEMrt: 0
+MEM_WBPC: 0
+MEM_WBinstruction: 0
+MEM_WBWrt_data: 0
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 2
+IF_IDPC: 8
+IF_IDrawInstruction: 00000000001000001000000110110011
+ID_EXPC: 4
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 4, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 0
+EX_MEMPC: 0
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 0, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 0
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 0
+MEM_WBinstruction: 0
+MEM_WBWrt_data: 0
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 3
+IF_IDPC: 8
+IF_IDrawInstruction: 00000000001000001000000110110011
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 4
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 4, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 4
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 0
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 0, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 5
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 4
+IF_IDPC: 12
+IF_IDrawInstruction: 01000000001000001000001000110011
+ID_EXPC: 8
+ID_EXinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 3, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 4
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 4, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 4
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 4
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 4, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 3
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 5
+IF_IDPC: 16
+IF_IDrawInstruction: 00000000001100000010010000100011
+ID_EXPC: 12
+ID_EXinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 4, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 8
+EX_MEMinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 3, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 8
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 4
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 4, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 3
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 6
+IF_IDPC: 20
+IF_IDrawInstruction: 00000000010000000010011000100011
+ID_EXPC: 16
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 8, 'imm': 8, 'Rs': 0, 'Rt': 3, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 3
+EX_MEMPC: 12
+EX_MEMinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 4, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 8
+MEM_WBinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 3, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 8
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 7
+IF_IDPC: 24
+IF_IDrawInstruction: 00000000000100010111001010110011
+ID_EXPC: 20
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 2, 'imm': 12, 'Rs': 0, 'Rt': 4, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 4
+EX_MEMPC: 16
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 8, 'imm': 8, 'Rs': 0, 'Rt': 3, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+EX_MEMALUresult: 8
+EX_MEMrt: 0
+EX_MEMRs2: 3
+MEM_WBPC: 12
+MEM_WBinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 3, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 4, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 8
+IF_IDPC: 28
+IF_IDrawInstruction: 00000000000100010110001100110011
+ID_EXPC: 24
+ID_EXinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 5, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 20
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 2, 'imm': 12, 'Rs': 0, 'Rt': 4, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+EX_MEMALUresult: 12
+EX_MEMrt: 0
+EX_MEMRs2: 4
+MEM_WBPC: 16
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 8, 'imm': 8, 'Rs': 0, 'Rt': 3, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+MEM_WBWrt_data: 8
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 9
+IF_IDPC: 32
+IF_IDrawInstruction: 00000000000100010100001110110011
+ID_EXPC: 28
+ID_EXinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 6, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 24
+EX_MEMinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 5, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 1
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 20
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 2, 'imm': 12, 'Rs': 0, 'Rt': 4, 'pcJump': 0, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'alu_op': '00', 'Wrt_reg_addr': 'X', 'wrt_mem': 1, 'registerWrite': 0, 'branch': 0, 'memReg': 'X'}
+MEM_WBWrt_data: 12
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 10
+IF_IDPC: 36
+IF_IDrawInstruction: 00000001000000000000000100000011
+ID_EXPC: 32
+ID_EXinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 7, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 28
+EX_MEMinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 6, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 7
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 24
+MEM_WBinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 5, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 1
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 11
+IF_IDPC: 40
+IF_IDrawInstruction: 00000000001000001000010000110011
+ID_EXPC: 36
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 16, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 0
+EX_MEMPC: 32
+EX_MEMinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 7, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 6
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 28
+MEM_WBinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 6, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 7
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 12
+IF_IDPC: 40
+IF_IDrawInstruction: 00000000001000001000010000110011
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 36
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 16, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 16
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 32
+MEM_WBinstruction: {'nop': False, 'Read_data1': 3, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 7, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 6
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 13
+IF_IDPC: 44
+IF_IDrawInstruction: 01000000001000001000010010110011
+ID_EXPC: 40
+ID_EXinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 8, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 36
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 16, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 16
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 36
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 16, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 4294967293
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 14
+IF_IDPC: 48
+IF_IDrawInstruction: 00000000000100010111010100110011
+ID_EXPC: 44
+ID_EXinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 9, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 40
+EX_MEMinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 8, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967298
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 36
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 16, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 4294967293
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 15
+IF_IDPC: 52
+IF_IDrawInstruction: 00000000000100010110010110110011
+ID_EXPC: 48
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 10, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 44
+EX_MEMinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 9, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -4294967288
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 40
+MEM_WBinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 8, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967298
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 16
+IF_IDPC: 56
+IF_IDrawInstruction: 00000000000100010100011000110011
+ID_EXPC: 52
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 11, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 48
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 10, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 5
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 44
+MEM_WBinstruction: {'nop': False, 'Read_data1': 5, 'Read_data2': 4294967293, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 9, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -4294967288
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 17
+IF_IDPC: 60
+IF_IDrawInstruction: 00000001010000000000000010000011
+ID_EXPC: 56
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 12, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 52
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 11, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967293
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 48
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 10, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 5
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 18
+IF_IDPC: 64
+IF_IDrawInstruction: 00000001100000000000000100000011
+ID_EXPC: 60
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 20, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 0
+EX_MEMPC: 56
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 12, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967288
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 52
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 11, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967293
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 19
+IF_IDPC: 68
+IF_IDrawInstruction: 00000000001000001000011010110011
+ID_EXPC: 64
+ID_EXinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 24, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 0
+ID_EXRs2: 0
+EX_MEMPC: 60
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 20, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 20
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 56
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967293, 'Read_data2': 5, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 12, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967288
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 20
+IF_IDPC: 68
+IF_IDrawInstruction: 00000000001000001000011010110011
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 64
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 24, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 24
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 60
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 20, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 1, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 4294967291
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 21
+IF_IDPC: 72
+IF_IDrawInstruction: 01000000001000001000011100110011
+ID_EXPC: 68
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 13, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 64
+EX_MEMinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 24, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+EX_MEMALUresult: 24
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 64
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 24, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 22
+IF_IDPC: 76
+IF_IDrawInstruction: 00000000000100010111011110110011
+ID_EXPC: 72
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 14, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 2
+EX_MEMPC: 68
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 13, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967293
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 64
+MEM_WBinstruction: {'nop': False, 'Read_data1': 0, 'Read_data2': 0, 'imm': 24, 'pcJump': 0, 'Rs': 0, 'Rt': 0, 'Wrt_reg_addr': 2, 'is_I_type': False, 'rd_mem': 1, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 1}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 23
+IF_IDPC: 80
+IF_IDrawInstruction: 00000000000100010110100000110011
+ID_EXPC: 76
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 15, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 72
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 14, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967289
+EX_MEMrt: 0
+EX_MEMRs2: 2
+MEM_WBPC: 68
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 13, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967293
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 24
+IF_IDPC: 84
+IF_IDrawInstruction: 00000000000100010100100010110011
+ID_EXPC: 80
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 16, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 76
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 15, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 72
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 2, 'imm': 'X', 'pcJump': 0, 'Rs': 1, 'Rt': 2, 'Wrt_reg_addr': 14, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0110', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967289
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 25
+IF_IDPC: 88
+IF_IDrawInstruction: 01111111111100010000100100010011
+ID_EXPC: 84
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 17, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 1
+EX_MEMPC: 80
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 16, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967291
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 76
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 15, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 26
+IF_IDPC: 92
+IF_IDrawInstruction: 01111111111100010111100110010011
+ID_EXPC: 88
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 18, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 84
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 17, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967289
+EX_MEMrt: 0
+EX_MEMRs2: 1
+MEM_WBPC: 80
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 16, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967291
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 27
+IF_IDPC: 96
+IF_IDrawInstruction: 01111111111100010110101000010011
+ID_EXPC: 92
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 19, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 88
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 18, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2049
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 84
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 4294967291, 'imm': 'X', 'pcJump': 0, 'Rs': 2, 'Rt': 1, 'Wrt_reg_addr': 17, 'is_I_type': False, 'rd_mem': 0, 'aluSource': 0, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '10', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967289
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 28
+IF_IDPC: 100
+IF_IDrawInstruction: 01111111111100010100101010010011
+ID_EXPC: 96
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 20, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 92
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 19, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 88
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 18, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2049
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 29
+IF_IDPC: 104
+IF_IDrawInstruction: 01111111111100001000101100010011
+ID_EXPC: 100
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 21, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 96
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 20, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2047
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 92
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 19, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 30
+IF_IDPC: 108
+IF_IDrawInstruction: 01111111111100001111101110010011
+ID_EXPC: 104
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 22, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 100
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 21, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2045
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 96
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 20, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2047
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 31
+IF_IDPC: 112
+IF_IDrawInstruction: 01111111111100001110110000010011
+ID_EXPC: 108
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 23, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 104
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 22, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294969338
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 100
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 21, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2045
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 32
+IF_IDPC: 116
+IF_IDrawInstruction: 01111111111100001100110010010011
+ID_EXPC: 112
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 24, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 108
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 23, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2043
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 104
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 22, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294969338
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 33
+IF_IDPC: 120
+IF_IDrawInstruction: 11111111111100010000110100010011
+ID_EXPC: 116
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 25, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 112
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 24, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967295
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 108
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 23, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2043
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 34
+IF_IDPC: 124
+IF_IDrawInstruction: 11111111111100010111110110010011
+ID_EXPC: 120
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 26, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 116
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 25, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294965252
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 112
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 24, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967295
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 35
+IF_IDPC: 128
+IF_IDrawInstruction: 11111111111100010110111000010011
+ID_EXPC: 124
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 27, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 120
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 26, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 1
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 116
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': 2047, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 25, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294965252
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 36
+IF_IDPC: 132
+IF_IDrawInstruction: 11111111111100010100111010010011
+ID_EXPC: 128
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 28, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 124
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 27, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 2
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 120
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 26, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 1
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 37
+IF_IDPC: 136
+IF_IDrawInstruction: 11111111111100001000111100010011
+ID_EXPC: 132
+ID_EXinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 29, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 2
+ID_EXRs2: 0
+EX_MEMPC: 128
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 28, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -1
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 124
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 27, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 2
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 38
+IF_IDPC: 140
+IF_IDrawInstruction: 11111111111100001111111110010011
+ID_EXPC: 136
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 30, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 132
+EX_MEMinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 29, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -3
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 128
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 28, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -1
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 39
+IF_IDPC: 144
+IF_IDrawInstruction: 11111111111100001110111110010011
+ID_EXPC: 140
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 136
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 30, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967290
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 132
+MEM_WBinstruction: {'nop': False, 'Read_data1': 2, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 2, 'Rt': 0, 'Wrt_reg_addr': 29, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -3
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 40
+IF_IDPC: 148
+IF_IDrawInstruction: 11111111111100001100000000010011
+ID_EXPC: 144
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 140
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: 4294967291
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 136
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 30, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0010', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967290
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 41
+IF_IDPC: 152
+IF_IDrawInstruction: 11111111111111111111111111111111
+ID_EXPC: 148
+ID_EXinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+ID_EXrs: 0
+ID_EXrt: 0
+ID_EXRs1: 1
+ID_EXRs2: 0
+EX_MEMPC: 144
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -1
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 140
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0000', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: 4294967291
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 42
+IF_IDPC: 152
+IF_IDrawInstruction: 11111111111111111111111111111111
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 148
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -4294967292
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 144
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 31, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0001', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -1
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 43
+IF_IDPC: 152
+IF_IDrawInstruction: 11111111111111111111111111111111
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 148
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -4294967292
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 148
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -4294967292
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 44
+IF_IDPC: 152
+IF_IDrawInstruction: 11111111111111111111111111111111
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 148
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -4294967292
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 148
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -4294967292
+MEM_WBALUresult: 0
+MEM_WBrt: 0
+----------------------------------------------------------------------
+State after executing cycle: 45
+IF_IDPC: 152
+IF_IDrawInstruction: 11111111111111111111111111111111
+ID_EXPC: 0
+ID_EXinstruction: 0
+ID_EXrs: 0
+ID_EXrt: 0
+EX_MEMPC: 148
+EX_MEMinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+EX_MEMALUresult: -4294967292
+EX_MEMrt: 0
+EX_MEMRs2: 0
+MEM_WBPC: 148
+MEM_WBinstruction: {'nop': False, 'Read_data1': 4294967291, 'Read_data2': 0, 'imm': -1, 'pcJump': 0, 'Rs': 1, 'Rt': 0, 'Wrt_reg_addr': 0, 'is_I_type': True, 'rd_mem': 0, 'aluSource': 1, 'aluControl': '0011', 'wrt_mem': 0, 'alu_op': '00', 'registerWrite': 1, 'branch': 0, 'memReg': 0}
+MEM_WBWrt_data: -4294967292
+MEM_WBALUresult: 0
+MEM_WBrt: 0
