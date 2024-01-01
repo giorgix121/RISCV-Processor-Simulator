@@ -1,6 +1,7 @@
 # RISCV-Processor-Simulator
 Project for Computing Systems Architecture Course (ECE-6913)
 
+
 Complete code is inside the folder gm3386 named as “main.py”. 
 
 The language used for the project is python.
@@ -9,7 +10,6 @@ In order to run the code, the following structure of files should be followed, a
 
 Inside gm3386 the main.py is present and inside Input, the testcases are present.
 
- 
 Running the program:
 go to project folder in terminal and Run the command:
  => python net_id/main.py main.py file is in gm3386 folder
